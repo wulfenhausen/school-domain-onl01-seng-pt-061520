@@ -21,7 +21,10 @@ class School
   end
     
   def sort
-    self.sort
-end
+    sortedhash = {}
+    @roster.each do|levels, students|
+    sortedhash[levels] = students.sort
+  end
+  sortedhash
   
 end
