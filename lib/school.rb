@@ -25,5 +25,6 @@ class School
     @roster.each do|levels, students|
     sortedhash[levels] = students.sort
   end
+end
   
 end
